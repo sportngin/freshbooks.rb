@@ -6,6 +6,7 @@ module FreshBooks
       s.date :date
       s.fixnum :recurring_id, :client_id, :po_number, :occurrences
       s.float :discount, :amount
+      s.array :contact
       s.array :lines
       s.boolean :stopped, :send_email, :send_snail_mail
       s.string :return_uri

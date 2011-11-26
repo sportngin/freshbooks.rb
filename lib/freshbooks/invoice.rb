@@ -5,6 +5,7 @@ module FreshBooks
     
     define_schema do |s|
       s.fixnum :invoice_id, :client_id, :po_number
+      s.array :contact_id
       s.fixnum :recurring_id, :read_only => true
       s.float :amount, :discount
       s.float :amount_outstanding, :paid, :read_only => true
