@@ -4,6 +4,7 @@ module FreshBooks
       s.string :estimate_id, :status, :date, :notes, :terms, :first_name, :number
       s.string :last_name, :organization, :p_street1, :p_street2, :p_city
       s.string :p_state, :p_country, :p_code
+      s.array :contacts      
       s.fixnum :client_id, :po_number
       s.float :discount, :amount
       s.array :lines

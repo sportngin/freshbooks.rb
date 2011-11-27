@@ -3,7 +3,7 @@ module FreshBooks
     define_schema do |s|
       s.string :first_name, :last_name, :organization, :email
       s.string :username
-      s.array :contact
+      s.array :contacts
       s.string :password, :work_phone, :home_phone
       s.string :mobile, :fax, :notes, :p_street1, :p_street2, :p_city
       s.string :p_state, :p_country, :p_code, :s_street1, :s_street2

@@ -8,6 +8,7 @@ lib/freshbooks/base.rb
 lib/freshbooks/category.rb
 lib/freshbooks/client.rb
 lib/freshbooks/connection.rb
+lib/freshbooks/contact.rb
 lib/freshbooks/estimate.rb
 lib/freshbooks/expense.rb
 lib/freshbooks/invoice.rb
